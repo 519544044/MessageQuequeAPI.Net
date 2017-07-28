@@ -60,7 +60,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyQueque\MessageQuequeAPI.csproj">
+    <ProjectReference Include="..\MessageQuequeAPI\MessageQuequeAPI.csproj">
       <Project>{276c2b0c-258e-41a3-85f3-a9248336d6e1}</Project>
       <Name>MessageQuequeAPI</Name>
     </ProjectReference>
