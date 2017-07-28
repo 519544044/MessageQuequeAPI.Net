@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyQueque", "MyQueque\MyQueque.csproj", "{276C2B0C-258E-41A3-85F3-A9248336D6E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageQuequeAPI", "MyQueque\MessageQuequeAPI.csproj", "{276C2B0C-258E-41A3-85F3-A9248336D6E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyQueque.Kafka", "MyQueque.Kafka\MyQueque.Kafka.csproj", "{F4C32ACE-02C1-47FF-BC36-4987A823C9C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageQuequeAPI.Kafka", "MyQueque.Kafka\MessageQuequeAPI.Kafka.csproj", "{F4C32ACE-02C1-47FF-BC36-4987A823C9C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyQueque.RabbitMQ", "MyQueque.RabbitMQ\MyQueque.RabbitMQ.csproj", "{2C199156-D756-48E0-8CBF-FCA3BEC74F10}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageQuequeAPI.RabbitMQ", "MyQueque.RabbitMQ\MessageQuequeAPI.RabbitMQ.csproj", "{2C199156-D756-48E0-8CBF-FCA3BEC74F10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyQueque.SqlServer", "MyQueque.Store\MyQueque.SqlServer.csproj", "{3704603B-9CFF-4C02-8574-FBFD836ABB3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageQuequeAPI.SqlServer", "MyQueque.Store\MessageQuequeAPI.SqlServer.csproj", "{3704603B-9CFF-4C02-8574-FBFD836ABB3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

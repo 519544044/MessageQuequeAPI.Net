@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyQueque.Interface
+namespace MessageQuequeAPI.Interface
 {
 
     public interface ICapOptionsExtension
