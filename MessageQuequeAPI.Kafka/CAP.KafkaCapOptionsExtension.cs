@@ -1,18 +1,16 @@
-﻿using MessageQuequeAPI.Interface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
+using MessageQuequeAPI.Kafka;
 using Microsoft.Extensions.DependencyInjection;
+using MessageQuequeAPI.Interface;
 
+// ReSharper disable once CheckNamespace
 namespace MessageQuequeAPI
 {
-    public class KafkaOptionsExtension : ICapOptionsExtension
+    public class KafkaCapOptionsExtension : ICapOptionsExtension
     {
         private readonly Action<KafkaOptions> _configure;
 
-        public KafkaOptionsExtension(Action<KafkaOptions> configure)
+        public KafkaCapOptionsExtension(Action<KafkaOptions> configure)
         {
             _configure = configure;
         }
@@ -24,11 +22,9 @@ namespace MessageQuequeAPI
             var kafkaOptions = new KafkaOptions();
             _configure(kafkaOptions);
             services.AddSingleton(kafkaOptions);
-
+            
             services.AddSingleton<IConsumerClientFactory, KafkaConsumerClientFactory>();
             services.AddTransient<IQueueExecutor, PublishQueueExecutor>();
         }
-
-      
     }
 }

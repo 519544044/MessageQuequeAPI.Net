@@ -1,5 +1,6 @@
 ﻿using System;
-using DotNetCore.CAP;
+using MessageQuequeAPI;
+using MessageQuequeAPI;
 
 // ReSharper disable once CheckNamespace
 namespace Microsoft.Extensions.DependencyInjection

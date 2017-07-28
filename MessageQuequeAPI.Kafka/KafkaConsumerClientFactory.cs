@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Options;
 
-namespace DotNetCore.CAP.Kafka
+namespace MessageQuequeAPI.Kafka
 {
     public class KafkaConsumerClientFactory : IConsumerClientFactory
     {

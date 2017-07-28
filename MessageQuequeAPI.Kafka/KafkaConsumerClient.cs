@@ -4,7 +4,7 @@ using System.Threading;
 using Confluent.Kafka;
 using Confluent.Kafka.Serialization;
 
-namespace DotNetCore.CAP.Kafka
+namespace MessageQuequeAPI.Kafka
 {
     public class KafkaConsumerClient : IConsumerClient
     {

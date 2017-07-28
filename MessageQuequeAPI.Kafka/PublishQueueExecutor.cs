@@ -3,11 +3,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Confluent.Kafka;
 using Confluent.Kafka.Serialization;
-using DotNetCore.CAP.Processor.States;
+using MessageQuequeAPI.Processor.States;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace DotNetCore.CAP.Kafka
+namespace MessageQuequeAPI.Kafka
 {
     public class PublishQueueExecutor : BasePublishQueueExecutor
     {

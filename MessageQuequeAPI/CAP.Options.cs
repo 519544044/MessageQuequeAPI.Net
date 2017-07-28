@@ -1,7 +1,8 @@
-﻿using System;
+﻿using MessageQuequeAPI.Interface;
+using System;
 using System.Collections.Generic;
 
-namespace DotNetCore.CAP
+namespace MessageQuequeAPI
 {
     /// <summary>
     /// Represents all the options you can use to configure the system.

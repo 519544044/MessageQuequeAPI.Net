@@ -1,7 +1,7 @@
-﻿using DotNetCore.CAP.Abstractions;
+﻿using MessageQuequeAPI.Abstractions;
 
 // ReSharper disable once CheckNamespace
-namespace DotNetCore.CAP
+namespace MessageQuequeAPI
 {
     public class CapSubscribeAttribute : TopicAttribute
     {

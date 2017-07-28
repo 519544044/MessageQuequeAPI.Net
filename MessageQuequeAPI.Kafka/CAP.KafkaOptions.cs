@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
+// ReSharper disable once CheckNamespace
 namespace MessageQuequeAPI
 {
+    /// <summary>
+    /// Provides programmatic configuration for the CAP kafka project.
+    /// </summary>
     public class KafkaOptions
     {
         public KafkaOptions()
